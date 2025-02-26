@@ -1,0 +1,11 @@
+body {
+    background-image: url(pastel_bg.jpg);
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.image {
+    cursor: pointer;
+}
+
+  
