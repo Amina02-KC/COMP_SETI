@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Формы</title>
+    </head>
+    <body>
+        <form>
+            <p>
+               <form name="forma1">
+                Какой язык вы хотите изучать: <br>
+                <select name="language" size="1">
+                    <option selected value="html">HTML</option>
+                    <option value="php">Php</option>
+                    <option value="java">Java</option>
+                </select>
+                <br><br>
+                Какое время вы готовы на это потратить: <br>
+                <select name="time" size="3">
+                    <option selected value="1">1 месяц</option>
+                    <option value="2">2 месяца</option>
+                    <option value="3">3 месяца</option>
+                </select>
+                <br><br>
+                Какие дни недели для занятий вас устроят: <br>
+                (выбирайте с нажатой клавишей ctrl) <br>
+                <select name="day" size="7" multiple>
+                    <option selected value="mon">Понедельник</option>
+                    <option value="tue">Вторник</option>
+                    <option selected value="wen">Среда</option>
+                    <option value="thu">Четверг</option>
+                    <option value="fri">Пятница</option>
+                    <option value="sat">Суббота</option>
+                    <option value="san">Воскресенье</option>
+                </select>
+                <input type="submit">
+               </form>
+            </p>
+        </form>
+    </body>
+</html>

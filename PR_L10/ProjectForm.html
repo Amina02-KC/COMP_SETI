@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Registration</title>
+    </head>
+    <body text="FFFFFF">
+        <h1 align="center">❤︎₊ ⊹ Форма регистрации ₊ ⊹❤︎</h1>
+            <form align="center">
+                Имя <input type="text" name="Name" size="20">
+                <br><br>
+                e-mail <input type="text" name="Email" size="20">
+                <br><br>
+                Пароль <input type="password" name="Password" size="20">
+                <br><br>
+                Повтор пароля <input type="password" name="RepeatPass" size="20">
+                <br><br>
+                Пол <input type="radio" name="Gender" size="20" value="Male">Мужской
+                <input type="radio" name="Gender" size="20" value="Female">Женский
+                <br><br>
+                Увлечения <select name="Hobbies" multiple>
+                  <option selected value="Computer">Компьютеры</option>
+                  <option value="Sport">Спорт</option>
+                  <option value="Games">Игры</option>
+                  <option value="Animals">Животные</option>
+                  <option value="Cars">Автомобили</option>
+                  <option value="Clubs">Клубы</option>
+                  <option value="Music">Музыка</option>
+              </select>
+              <br><br>
+              Ваши пожелания <textarea name="CommentWish" rows="5" cols="40"></textarea>
+              <br><br>
+              <div class="Buttons">    
+                  <button type="submit" class="submit" name="Submit">
+                  <img src="sendbtn.png" align="absmiddle" style="width: 20px; height: 20px;"> Отправить
+                  </button>
+                  <button type="submit" class="reset" name="Reset">
+                  <img src="resetbtn.png" align="absmiddle" style="width: 20px; height: 20px;"> Очистить
+                  </button>
+              </div>
+            </form>
+    </body>
+</html>

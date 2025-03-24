@@ -1,0 +1,5 @@
+html {
+    min-height: 100%;
+    background-image: linear-gradient(rgb(187, 214, 250), rgb(105, 133, 192));
+    background-size: cover;
+}
